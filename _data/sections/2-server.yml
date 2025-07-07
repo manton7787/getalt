@@ -47,7 +47,7 @@ members:
 
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
-     requires acquiring licenses or signing a 
+     requires acquiring licenses or signing a
      <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p11/images/server/license.all.html">license agreement</a>
      in written form.
    img: alt-server
@@ -71,7 +71,7 @@ members:
      <p><br>
 
      Основные функции и возможности:
-     <ul">
+     <ul>
      <li>Консолидация серверов: на одном физическом сервере можно разместить несколько виртуальных машин или контейнеров, что оптимизирует использование аппаратных ресурсов;</li>
      <li>Изоляция и безопасность: виртуализация позволяет создавать изолированные окружения для различных приложений и сервисов, предотвращая взаимное влияние;</li>
      <li>Тестирование и разработка: можно создавать тестовые окружения, которые легко масштабируются и воспроизводятся;</li>
@@ -80,9 +80,9 @@ members:
      <li>Мониторинг и управление: встроенные инструменты позволяют отслеживать состояние виртуальных машин, контейнеров и физических серверов, а также проводить анализ использования ресурсов;</li>
      <li>Резервное копирование и восстановление: предоставляет средства для создания резервных копий виртуальных машин и контейнеров, что помогает обеспечить безопасное хранение данных и восстановление систем в случае сбоев;</li>
      </ul>
-
+     <br>
      Альт Виртуализация 11 редакция PVE предоставляет возможность миграции ИТ-инфраструктур из других систем виртуализации, в том числе встроенный инструмент для импорта ВМ напрямую из хранилищ VMware ESXi.
-     Дистрибутив Альт Виртуализация 11 входит в реестр Минцифры (регистрационный номер ПО: <a href="https://reestr.digital.gov.ru/reestr/307837/?sphrase_id=610725">6487)</a>. С его функциональными характеристиками можно ознакомиться на <a href="https://www.basealt.ru/alt-virtualization">сайте производителя</a> &ndash; ООО «Базальт СПО».
+     Дистрибутив Альт Виртуализация 11 входит в реестр Минцифры (регистрационный номер ПО: <a href="https://reestr.digital.gov.ru/reestr/307837/?sphrase_id=610725">6487</a>). С его функциональными характеристиками можно ознакомиться на <a href="https://www.basealt.ru/alt-virtualization">сайте производителя</a> &ndash; ООО «Базальт СПО».
      Исходные тексты содержащихся в этих образах свободных программ можно получить в <a href="https://ftp.altlinux.org/pub/distributions/ALTLinux/p11/branch/files/SRPMS/">src.rpm-пакетах</a> и из <a href="https://git.altlinux.org/">git-репозиториев.</a>
      Для записи ISO-образов на USB Flash воспользуйтесь <a href="https://www.altlinux.org/Запись_образов_на_DVD_и_USB_Flash">инструкцией</a>.
      Cоздание образа корневой файловой системы из aarch64-архива описано <a href="https://www.altlinux.org/Write/rootfs">здесь</a>.
@@ -104,9 +104,9 @@ members:
      <li>Monitoring and management: built-in tools allow you to monitor the status of virtual machines, containers and physical servers, as well as analyze resource utilization;</li>
      <li>Backup and recovery: provides tools for creating backups of virtual machines and containers to help ensure safe data service and system recovery in case of failures;</li>
      </ul>
-
+     <br>
      ALT Virtualization 11 PVE edition provides the ability to migrate IT infrastructures from other virtualization systems, including a built-in tool for importing VMs directly from VMware ESXi storage.
-     The ALT Virtualization 11 distribution is included in the register of the Ministry for Digital Development, Communications and Mass Media (software registration number: <a href="https://reestr.digital.gov.ru/reestr/307837/?sphrase_id=610725">6487)</a>. Its functional characteristics can be found on the <a href="https://www.basealt.ru/alt-virtualization">on the website of the manufacturer</a> &ndash; Basealt LLC.
+     The ALT Virtualization 11 distribution is included in the register of the Ministry for Digital Development, Communications and Mass Media (software registration number: <a href="https://reestr.digital.gov.ru/reestr/307837/?sphrase_id=610725">6487</a>). Its functional characteristics can be found on the <a href="https://www.basealt.ru/alt-virtualization">on the website of the manufacturer</a> &ndash; Basealt LLC.
 
      The source code of the free software contained in these images can be obtained from <a href="https://ftp.altlinux.org/pub/distributions/ALTLinux/p11/branch/files/SRPMS/">src.rpm packages</a> and <a href="https://git.altlinux.org/">git repositories.</a>
 
