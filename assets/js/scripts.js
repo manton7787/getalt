@@ -15,7 +15,13 @@ function showVersion(version) {
 }
 
 function initializePlatforms(platforms, platform) {
-  if (platforms.length > 0) {
-      showVersion(platform);
+  if (platforms.length <= 0) {
+      return;
+  }
+
+  if (platforms.includes(platform)) {
+    showVersion(platform);
+  } else {
+    showVersion(platforms[0]);
   }
 }
