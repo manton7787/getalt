@@ -43,7 +43,8 @@ layout: default
                   {% assign image_list = image_list | concat:  filtered_platform_entries %}
                 {% endfor %}
 
-                {% if p <= platform and image_list.size != 0%}
+                {% assign version_ok = p | version_compare: platform %}
+                {% if version_ok and image_list.size != 0%}
                  {% assign available_platforms = available_platforms | append: p | append: "," %}
                 {% endif %}
               {% endfor %}
@@ -61,7 +62,8 @@ layout: default
                       {% endif %}
 
                       {% for p in available_platforms%}
-                      {% if p <= platform %}
+                      {% assign version_ok = p | version_compare: platform %}
+                      {% if version_ok %}
                         <button onclick="showVersion('{{p}}')">{{p}}</button>
                       {% endif %}
                       {% endfor %}
@@ -69,7 +71,8 @@ layout: default
                 </div>
 
                 {% for p in available_platforms%}
-                  {% if p <= platform %}
+                  {% assign version_ok = p | version_compare: platform %}
+                  {% if version_ok %}
                   <div class="links-wrapper" id="{{p}}">
                       {% comment %}
                       Build a flat array of entries from several YAML files.
