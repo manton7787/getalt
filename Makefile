@@ -18,6 +18,10 @@ build: Gemfile
 public: build
 	rsync -r --delete-after _site/ getalt:/var/www/vhosts/getalt.org/
 
+backup:
+	mkdir _site.backup
+	rsync -r --delete getalt:/var/www/vhosts/getalt.org/ _site.backup/
+
 .jekyll-cache:
 	mkdir -p .jekyll-cache
 	chmod 777 .jekyll-cache
