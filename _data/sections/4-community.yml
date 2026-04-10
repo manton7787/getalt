@@ -1,23 +1,81 @@
-name_en: Community
-name_ru: Сообщество
+code: community
+name_en: Mobile And Community
+name_ru: Альт Мобильный и другие решения
 order: 4
 bgcolor: f1f1f1
 
 members:
+
+ - code: alt-mobile
+   branch: p11
+   name_en: ALT Mobile
+   name_ru: Альт Мобильный
+   img: alt-mobile
+   bgcolor: #a00...
+
+   descr_ru: |
+     Операционная система для мобильных устройств, смартфонов и планшетов.
+
+   descr_en: |
+     Operating system for mobile devices, smartphones, and tablets.
+
+   descr_full_ru: |
+    <a href="https://www.altlinux.org/ALT_Mobile"><b>Альт Мобильный 11</b></a> — операционная система для планшетов, смартфонов и других мобильных 
+    устройств с сенсорным управлением (считывателей, встроенных систем, кассовой техники и терминалов сбора данных).
+    <p>
+    Разработка операционной системы ведётся в соответствии с принципами свободного программного обеспечения. 
+    Кодовая база полностью открыта и опубликована. «Альт Мобильный» не зависит от Android или AOSP и не использует их компонентов.
+
+    <p>Особенности ОС «Альт Мобильный»:
+
+    <ul>
+    <li>Интерфейс ОС «Альт Мобильный» адаптирован для экранов мобильных устройств с сенсорным 
+    управлением и использует оболочку Phosh, основанную на технологиях GNOME.</li>
+    <li>Система включает программы для выполнения стандартных задач на смартфонах и планшетах: 
+    звонки, отправка SMS/MMS, работа в браузерах, мессенджерах и с электронной почтой, управление 
+    камерой, работа с мультимедийным контентом, прослушивание музыки, навигация, чтение электронных книг.</li>
+    <li>«Центр приложений» предоставляет возможность установки программ через удобный графический интерфейс. 
+    Для продвинутых пользователей есть консоль и штатные средства APT.</li>
+    </ul>
+
+    <p>... и не только.</p>
+    <p>Создание образа корневой файловой системы из aarch64-архива  описано <a href="https://altmobile.org/">в базе знаний «Альт Мобильный»</a>.</p>
+
+   descr_full_en: |
+    <a href="https://www.altlinux.org/ALT_Mobile"><b>ALT Mobile 11</b></a>
+    <p> is an operating system for tablets, smartphones, and other mobile devices with touch controls, such as readers, 
+    embedded systems, cash registers, and data collection terminals.<p>
+    The operating system is developed in accordance with the principles of free software. 
+    The code base is fully open and published. ALT Mobile is independent of Android or AOSP and does not use their components.</p>
+
+    <p>Features of the ALT Mobile OS:</p>
+
+    <ul>
+    <li>The ALT Mobile OS interface is adapted for touch-sensitive mobile device screens and uses the Phosh shell, which is based on GNOME technologies</li>
+    <li>The system includes programs for performing standard tasks on smartphones and tablets, such as making calls, sending SMS/MMS, using browsers, messaging apps, and email, managing the camera, working with multimedia content, listening to music, navigating, and reading e-books</li>
+    <li>The App Center provides a user-friendly graphical interface for installing programs. For advanced users, there is a console and standard apt tools</li>
+    </ul>
+
+    <p>... and not only that.</p>
+
+    <a>Creating an image of the root file system from the aarch64 archive is described <a href="https://altmobile.org/en/">in the ALT Mobile knowledge base</a>.</p>
 
  - name_ru: Другие
    name_en: Other
    code: starterkits
    img: starterkits
    branch: p10
+
    descr_ru: |
      Стартовые наборы представляют из себя свободно распространяемые
      сборки на основе стабильного репозитория Альт, предназначенные
      для опытных пользователей и разработчиков производных решений.
+
    descr_en: |
      Starter kits are freely distributable images based on the stable
      ALT repository and designed for experienced users and developers
      of derivative solutions.
+
    descr_full_ru: |
      <a href="http://altlinux.org/starterkits"><b>Стартовые наборы</b></a>
      Одиннадцатой платформы — ежеквартальные сборки для опытных пользователей.
@@ -114,4 +172,3 @@ members:
      <p>
      The build profile is contained in ISO images as <tt>.disk/profile.tgz</tt>.
      </p>
-
